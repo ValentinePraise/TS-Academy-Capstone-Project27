@@ -1,0 +1,24 @@
+.space-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 80px 100px;
+}
+.image-box img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border: radius 16px;
+}
+.text-box {
+  max-width: 450px;
+}
+.text-box h2 {
+  font-size: 28px;
+  color: #1d4ed8;
+  margin-bottom: 15px;
+}
+.text-box p {
+  font-size: 14px;
+}
