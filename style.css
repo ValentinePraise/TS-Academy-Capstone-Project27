@@ -9,7 +9,7 @@
   width: 220px;
   height: 220px;
   object-fit: cover;
-  border: radius 16px;
+  border-radius: 16px;
 }
 .text-box {
   max-width: 450px;
@@ -19,6 +19,38 @@
   color: #1d4ed8;
   margin-bottom: 15px;
 }
+.text-box h2 .center-phrase {
+  display: block;
+  width: max-content;
+  margin-left: 4ch;
+}
 .text-box p {
+  font: inter;
   font-size: 14px;
+}
+.text-box p span {
+  color: #1274a4;
+}
+/* Mobile breakpoint */
+@media (max-width: 600px) {
+  .space-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 24px;
+  }
+  .image-box img {
+    width: 160px;
+    height: 160px;
+  }
+  .text-box {
+    max-width: 100%;
+    text-align: center;
+  }
+  .text-box h2 {
+    font-size: 20px;
+  }
+  .text-box p {
+    font-size: 15px;
+  }
 }
