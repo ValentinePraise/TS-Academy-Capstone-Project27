@@ -3,7 +3,7 @@ import React from "react";
 const Table = () => {
   return (
     <div>
-      <article className="planetary-facts">
+      <div className="planetary-facts">
         <h2 id="planetary" className="planet-facts-header">
           Planetary Facts at a Glance
         </h2>
@@ -21,10 +21,10 @@ const Table = () => {
         </p>
 
         {/* <!-- Table section --> */}
-        <table id="explore" class="planetary-table">
+        <table id="explore" className="planetary-table">
           <thead>
             <tr scope="col">
-              <th colspan="2" className="table-header-1"></th>
+              <th colSpan="2" className="table-header-1"></th>
 
               <th className="table-header-1">Name</th>
               <th className="table-header-1">Mass (10 24kg)</th>
@@ -38,8 +38,8 @@ const Table = () => {
             <tr>
               <th
                 scope="row"
-                colspan="2"
-                rowspan="4"
+                colSpan="2"
+                rowSpan="4"
                 className="table-header-2"
               >
                 Terrestial Planets
@@ -76,10 +76,10 @@ const Table = () => {
             </tr>
 
             <tr>
-              <th scope="row" rowspan="4" className="table-header-2">
+              <th scope="row" rowSpan="4" className="table-header-2">
                 Jovian planets
               </th>
-              <th scope="row" rowspan="2" className="table-header-2">
+              <th scope="row" rowSpan="2" className="table-header-2">
                 Gas Giants
               </th>
               <td>Jupiter</td>
@@ -98,7 +98,7 @@ const Table = () => {
             </tr>
 
             <tr>
-              <th scope="row" rowspan="2" className="table-header-2">
+              <th scope="row" rowSpan="2" className="table-header-2">
                 Ice Giants
               </th>
               <td>Uranus</td>
@@ -118,17 +118,19 @@ const Table = () => {
           </tbody>
 
           <tfoot>
-            <th scope="row" colspan="2" className="table-header-2">
-              Dwarf Giants
-            </th>
-            <td>Pluto</td>
-            <td>0.330</td>
-            <td>4,878</td>
-            <td>5427</td>
-            <td>3.7</td>
+            <tr>
+              <th scope="row" colSpan="2" className="table-header-2">
+                Dwarf Giants
+              </th>
+              <td>Pluto</td>
+              <td>0.330</td>
+              <td>4,878</td>
+              <td>5427</td>
+              <td>3.7</td>
+            </tr>
           </tfoot>
         </table>
-      </article>
+      </div>
     </div>
   );
 };
