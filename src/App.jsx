@@ -4,6 +4,7 @@ import Hero from "./Components/Hero";
 import Planet from "./Components/Planet";
 import Cards from "./Components/Cards";
 import CapStoneform from "./Components/CapStoneForm";
+import Footer from "./Components/CapStoneFooter";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Planet />
       <Cards />
       <CapStoneform />
+      <Footer />
     </div>
   );
 };

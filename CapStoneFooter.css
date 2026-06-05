@@ -97,14 +97,3 @@
     }
 }
 
-@media(max-width:480px){
-
-    .members-list{
-        grid-template-columns:1fr;
-    }
-
-    .about-text,
-    .members-list li{
-        font-size:14px;
-    }
-}
