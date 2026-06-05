@@ -41,8 +41,8 @@ const Cards = () => {
             <figure>
               <img src={planet.image} alt="" />
             </figure>
-            <p>Planet: {planet.planet}</p>
-            <p>Distance From Sun {planet.distanceFromSun}</p>
+            <p>Planet Name: {planet.planet}</p>
+            <p>Distance From Sun: {planet.distanceFromSun}</p>
           </div>
         ))}
       </div>
