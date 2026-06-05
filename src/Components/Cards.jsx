@@ -27,7 +27,7 @@ const Cards = () => {
     return <h1>Loading...</h1>;
   }
   return (
-    <div className="container">
+    <div className="card-container" id="planet-cards">
       <h2>Visualizing the Differences Between Planets</h2>
       <p>
         Each planet in our solar system has unique physical characteristics.
@@ -41,8 +41,8 @@ const Cards = () => {
             <figure>
               <img src={planet.image} alt="" />
             </figure>
-            <p>{planet.planet}</p>
-            <p>{planet.distanceFromSun}</p>
+            <p>Planet: {planet.planet}</p>
+            <p>Distance From Sun {planet.distanceFromSun}</p>
           </div>
         ))}
       </div>

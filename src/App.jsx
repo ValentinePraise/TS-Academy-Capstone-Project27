@@ -1,13 +1,18 @@
 import React from "react";
-import Cards from "./Components/Cards";
+import Header from "./Components/Header";
 import Hero from "./Components/Hero";
-
+import Planet from "./Components/Planet";
+import Cards from "./Components/Cards";
+import CapStoneform from "./Components/CapStoneForm";
 
 const App = () => {
   return (
     <div>
-      <Hero/>
-     <Cards/>
+      <Header />
+      <Hero />
+      <Planet />
+      <Cards />
+      <CapStoneform />
     </div>
   );
 };
