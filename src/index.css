@@ -264,6 +264,75 @@
   transition: transform 0.3s ease;
 }
 
+/* Table Section */
+.planetary-facts {
+  font-size: 18px;
+  width: 1200px;
+  margin: 40px auto;
+  color: #0f2a44;
+}
+.planet-facts-header {
+  color: #164baf;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.planet-facts-text {
+  font-weight: 400;
+  width: 904px;
+  margin-top: 15px;
+}
+
+.table-caption {
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+
+table {
+  color: #212121;
+  background: orangered;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.table-header-1 {
+  color: #ffffff;
+  background-color: #164baf;
+}
+
+.table-header-2 {
+  background-color: #d1e3ff;
+}
+
+td {
+  background-color: #f2f7ff;
+}
+
+
+.planetary-table {
+  border-radius: 35px;            
+  border-collapse: separate;     
+  border-spacing: 0;              
+  overflow: hidden;                
+  font-family: sans-serif;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 900px) {
+  .hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
 .grid-planet-card:hover img {
   transform: scale(1.05);
 }
