@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.hero-section {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.hero-section__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+
+/* --- Media Section --- */
+.hero-section__media-wrapper {
+  flex: 1;
+  width: 100%;
+  max-width: 500px; 
+}
+
+.hero-section__video-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1; 
+  border-radius: 4rem; 
+  overflow: hidden;
+  box-shadow: 0 2rem 5rem rgba(0, 79, 176, 0.2);
+}
+
+.hero-section__video-player {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
+  cursor: pointer;
+}
+
+/* Play Button Styling */
+.hero-section__play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+
+.hero-section__play-button {
+  width: 8rem;
+  height: 8rem;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+.hero-section__play-button svg {
+  width: 4rem;
+  height: 4rem;
+  color: #0056b3;
+  margin-left: 0.5rem;
+}
+
+/* --- Content Section --- */
+.hero-section__content {
+  flex: 1.2;
+}
+
+.hero-section__title {
+  font-size: 4.2rem;
+  color: #1a5fb4;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+  text-align: center; 
+}
+
+.hero-section__description {
+  font-size: 1.8rem; 
+  color: #4a4a4a;
+  line-height: 1.6;
+  max-width: 55rem;
+  text-align: center; 
+  margin: 0 auto;
+}
+
+.hero-section__highlight {
+  color: #1a5fb4;
+  font-weight: 800;
+}
+
+/* ------------------------------ Responsiveness --------------------------------- */
+
+/* Tablet size */
+@media (max-width: 1024px) {
+    .hero-section__container {
+      gap: 4rem;
+    }
+    .hero-section__title {
+      font-size: 3.2rem;
+    }
+}
+
+/* Mobile size */
+@media (max-width: 768px) {
+    .hero-section__container {
+      flex-direction: column;
+    }
+
+    .hero-section__media-wrapper {
+      max-width: 40rem; 
+    }
+
+    .hero-section__title {
+      font-size: 2.8rem;
+    }
+    
+    .hero-section__play-button {
+      width: 6rem;
+      height: 6rem;
+    }
+}
