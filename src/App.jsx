@@ -3,6 +3,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Planet from "./Components/Planet";
 import Cards from "./Components/Cards";
+import Table from "./Components/Table";
 import CapStoneform from "./Components/CapStoneForm";
 import Footer from "./Components/CapStoneFooter";
 
@@ -13,6 +14,7 @@ const App = () => {
       <Hero />
       <Planet />
       <Cards />
+      <Table />
       <CapStoneform />
       <Footer />
     </div>

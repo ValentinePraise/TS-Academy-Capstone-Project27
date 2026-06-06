@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <header className="header">
         <img src={logo} alt="Solar System Logo" className="logo" />
-        <nav className="nav"></nav>
+        <nav className="nav-bar"></nav>
       </header>
     </div>
   );

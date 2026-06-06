@@ -16,14 +16,14 @@
   left: 0;
   width: 100%;
   z-index: 100;
-  padding: 2rem 4rem;
+  padding: 2rem 3rem;
   background: #051540;
-  backdrop-filter: blur(10px);
 }
 .logo {
   font-size: 2rem;
   cursor: pointer;
   color: #fff;
+  margin-left: 50px;
 }
 /* Header section end */
 
@@ -142,13 +142,14 @@
 }
 /* Hero Section End */
 
-/* planet Video start */
+/* planet Video section start */
 .planet-container {
   width: 100%;
   height: 80vh;
 }
 .planet-vid-container {
   max-width: 1440px;
+  height: auto;
   margin: 5rem auto;
   padding: 2rem;
   display: flex;
@@ -160,6 +161,7 @@
 
 .planet-card {
   flex: 1;
+  transform: translateY(100px);
 }
 
 .planet-video-card {
@@ -185,6 +187,7 @@
 .planet-vid-content {
   text-align: center;
   color: #ffffff;
+  max-width: 500px;
 }
 
 .planet-vid-content h2 {
@@ -256,14 +259,13 @@
 
 .grid-planet-card img {
   width: 100%;
-  height: 280px;
+  height: 260px;
   object-fit: cover;
   object-position: center;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   transition: transform 0.3s ease;
 }
-
 .grid-planet-card:hover img {
   transform: scale(1.05);
 }
@@ -280,12 +282,75 @@
   font-size: 1rem;
   margin-top: 0.5rem;
 }
-/* Planet card section End */
+
+/* planet cards end */
+
+/* Table Section  start*/
+.planetary-facts {
+  font-size: 18px;
+  width: 1200px;
+  margin: 40px auto;
+  color: #0f2a44;
+  transform: translateY(50px);
+}
+.planet-facts-header {
+  color: #164baf;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.planet-facts-text {
+  font-weight: 400;
+  width: 904px;
+  margin-top: 15px;
+}
+
+.table-caption {
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+table {
+  color: #212121;
+  background: orangered;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid #fff;
+  padding: 20px;
+  text-align: center;
+}
+.table-header-1 {
+  color: #ffffff;
+  background-color: #164baf;
+}
+
+.table-header-2 {
+  background-color: #d1e3ff;
+}
+
+td {
+  background-color: #f2f7ff;
+}
+
+.planetary-table {
+  border-radius: 35px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  width: 100%;
+}
+/* Planets card table end */
 
 /* Form Section Start*/
 .page-content {
   width: 100%;
   min-height: 80vh;
+  margin-bottom: 5rem;
 }
 
 .section {
@@ -508,6 +573,9 @@ textarea {
 /* Form Section Tablet responsive end */
 
 @media (max-width: 768px) {
+  header .nav-bar {
+    display: none;
+  }
   /* Hero Reponsive section start */
   .hero {
     flex-direction: column-reverse;
@@ -590,6 +658,10 @@ textarea {
     font-size: 0.8rem;
   }
   /* planet card responsive section end */
+
+  .planetary-facts {
+    display: none;
+  }
 
   /* Form Section responsive Start */
   .section {
