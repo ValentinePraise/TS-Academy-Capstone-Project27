@@ -3,23 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"href="style.css">
-    <title>Document</title>
+    <title>Planetary Data Component</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<section class="space-section">
-    <div class="image-box">
-        <img src="images/Frame 164.png" alt="planet image">
-    </div>
-    <div class="text-box">
-        <h2>How Planetary Data Helps Us Understand Space</h2>
-        <p>Planetary Science goes beyound images.Comparing mass diameter,
-            gravity,and density,we gain insight into how planets form,
-            behaviour and interact within the solar system.
+    <section class="hero-section">
+        <div class="hero-section__container">
+            
+            <!-- Media Section -->
+            <div class="hero-section__media-wrapper">
+                <div class="hero-section__video-container">
+                    <video class="hero-section__video-player" autoplay muted loop playsinline src="public/Planetary-body.mp4"></video>
+                    
+                    <!-- Play Icon Overlay -->
+                    <div class="hero-section__play-overlay">
+                        <div class="hero-section__play-button">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 5v14l11-7z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        </p>
-    </div>
-</section>
-</p>
+            <!-- Content Section -->
+            <div class="hero-section__content">
+                <h1 class="hero-section__title">
+                    How Planetary Data Helps Us <br> Understand Space
+                </h1>
+                <p class="hero-section__description">
+                    Planetary science goes beyond images. Comparing 
+                    <span class="hero-section__highlight">mass</span>, 
+                    <span class="hero-section__highlight">diameter</span>, 
+                    <span class="hero-section__highlight">gravity</span>, and 
+                    <span class="hero-section__highlight">density</span>, 
+                    we gain insight into how planets form, behave, and interact within the solar system.
+                </p>
+            </div>
+        </div>
+    </section>
+    <script src="vite.config.js"></script>
 </body>
 </html>
