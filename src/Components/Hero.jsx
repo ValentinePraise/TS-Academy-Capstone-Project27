@@ -1,4 +1,7 @@
 import React from "react";
+import heroImage from "../assets/images/planet.png";
+
+<img src={heroImage} alt="Hero" />;
 
 const Hero = () => {
   return (
@@ -23,7 +26,7 @@ const Hero = () => {
         <article className="hero-card img-card">
           <figure>
             <img
-              src="src/assets/images/planet.png"
+              src={heroImage} 
               width={"200px"}
               height={"200px"}
               alt=""
