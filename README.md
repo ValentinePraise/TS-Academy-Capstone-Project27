@@ -10,15 +10,15 @@ Through collaborative development, team members worked on separate branches, sub
 
 1. Mbajiogu Valentine Praise - https://github.com/ValentinePraise
 2. Jethro George - https://github.com/jethrogeorge
-3. Olumolade Victor Olamide - Https://github.com/juniorfrontdevs
-4. Owolabi Temitayo - https://github.com/thayour02-create/hello-world
-5. Nwosu Blessing Chinaza - https://gitHub.com/blessingchi2
-6. Adeoyegunle oluwadamilola hephzibah - https://github.com/ddemystifiable
-7. Odoh Emmanuel Onyemaechi - https://github.com/Prime091
-8. Timileyin Benjamin Odusami
-9. Ochedikwu Joshua O
-10. Adetayo Afeez Adewale
-11.
+3. Ochedikwu Joshua O
+4. Olumolade Victor Olamide - Https://github.com/juniorfrontdevs
+5. Owolabi Temitayo - https://github.com/thayour02-create/hello-world
+6. Nwosu Blessing Chinaza - https://gitHub.com/blessingchi2
+7. Adeoyegunle oluwadamilola hephzibah - https://github.com/ddemystifiable
+8. Odoh Emmanuel Onyemaechi - https://github.com/Prime091
+9. Adeoyegunle Oluwadamilola Hephzibah - https://github.com/ddemystifiable
+10. Timileyin Benjamin Odusami -
+11. Adetayo Afeez Adewale
 12.
 13.
 14.
@@ -36,14 +36,17 @@ This project was completed as a collaborative team effort through virtual peer c
 
 ### Header Component
 
-**Developer(s):** [Team Member Name]
+Developer(s):
+1.Timileyin Benjamin Odunsami
 
 - Created the website header and navigation.
 - Implemented navigation links and page structure.
 
 ### Hero Component
 
-**Developer(s):** [Team Member Name]
+Developer(s):
+
+1. Odoh Emmanuel Onyemaechi - https://github.com/Prime091
 
 - Built the hero section.
 - Implemented the video background and call-to-action buttons.
@@ -51,14 +54,18 @@ This project was completed as a collaborative team effort through virtual peer c
 
 ### Planet Display Component
 
-**Developer(s):** [Team Member Name]
+Developer(s):
+
+1. Nwosu Blessing Chinaza - https://gitHub.com/blessingchi2
 
 - Displayed planetary information retrieved from the API.
 - Rendered planet names, images, and distances from the sun.
 
 ### API Integration / Data Fetching
 
-**Developer(s):** [Team Member Name]
+Developer(s):
+
+1. Mbajiogu Valentine Praise (Team Lead) - https://github.com/ValentinePraise
 
 - Integrated the provided API.
 - Implemented data fetching using Fetch API.
@@ -66,14 +73,20 @@ This project was completed as a collaborative team effort through virtual peer c
 
 ### Table Component
 
-**Developer(s):** [Team Member Name]
+Developer(s):
+
+1. Jethro George - https://github.com/jethrogeorge
+2. Ochedikwu Joshua O
 
 - Displayed planetary data in a tabular format.
 - Structured and formatted data for readability.
 
 ### Contact Form Component
 
-**Developer(s):** [Team Member Name]
+Developer(s):
+
+1. Olumolade Victor O - Https://github.com/juniorfrontdevs
+2. Owolabi Temitayo A
 
 - Built the contact form.
 - Implemented client-side validation.
@@ -82,21 +95,19 @@ This project was completed as a collaborative team effort through virtual peer c
 
 ### Footer Component
 
-**Developer(s):** [Team Member Name]
+Developer(s):
+
+1. Adetayo Afeez Adewale
+2. Adeoyegunle Oluwadamilola Hephzibah
 
 - Developed the footer section.
 - Added team information and required external links.
 
-### Responsive Design
-
-**Developer(s):** [Team Member Name(s)]
-
-- Implemented media queries.
-- Optimized layouts for mobile, tablet, and desktop devices.
-
 ### GitHub Collaboration and Documentation
 
-**Developer(s):** [Team Lead / Team Members]
+Developer(s):
+
+1. Mbajiogu Valentine Praise
 
 - Managed Git branches and pull requests.
 - Reviewed and merged code contributions.

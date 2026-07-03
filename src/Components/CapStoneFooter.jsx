@@ -23,6 +23,7 @@ const CapStoneFooter = () => {
               <li>Temitayo</li>
               <li>Victor</li>
               <li>Afeez</li>
+              <li>Hephzibah</li>
             </ul>
           </div>
 
