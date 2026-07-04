@@ -16,14 +16,9 @@ Through collaborative development, team members worked on separate branches, sub
 6. Nwosu Blessing Chinaza - https://gitHub.com/blessingchi2
 7. Adeoyegunle oluwadamilola hephzibah - https://github.com/ddemystifiable
 8. Odoh Emmanuel Onyemaechi - https://github.com/Prime091
-9. Adeoyegunle Oluwadamilola Hephzibah - https://github.com/ddemystifiable
-10. Timileyin Benjamin Odusami -
-11. Adetayo Afeez Adewale
-12.
-13.
-14.
-15.
-16.
+9. Timileyin Benjamin Odusami -
+10. Adetayo Afeez Adewale
+
 
 ### Group Repository
 
